@@ -1,3 +1,7 @@
+print("sinh vien : Ho Gia Bao") 
+print("ma so sv :245751030110059")
+print("#############################")
+
 n = int(input("Nhap n: "))
 pas = []
 for i in range(n):
@@ -6,3 +10,4 @@ for j in range(1, i):
 row[j] = pas[i-1][j-1] + pas[i-1][j]
 pas.append(row)
 print(row)
+
