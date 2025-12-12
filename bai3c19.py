@@ -1,3 +1,7 @@
+print("sinh vien : Ho Gia Bao") 
+print("ma so sv :245751030110059")
+print("#############################")
+
 import math
 P = []
 for num in range(2, 10**6):
@@ -10,3 +14,4 @@ if is_prime:
 P.append(num)
 P = tuple(P)
 print(len(P))
+
